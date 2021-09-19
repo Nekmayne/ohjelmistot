@@ -27,6 +27,9 @@ jobs:
         run: |
           pytest
           coverage run test_postitoimilogiikka.py
+          
+      - name: Coverage report
+        run: |
           coverage report
       
           
